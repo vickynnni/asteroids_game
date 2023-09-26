@@ -23,12 +23,7 @@ public class Player : MonoBehaviour
         GameOverPanel.SetActive(false);
         vidas();
         int anchoPantalla = Screen.width;
-        int altoPantalla = Screen.height;
-
-        // Imprime el tamaño de la pantalla en la consola
-        Debug.Log("Tamaño de la pantalla: " + anchoPantalla + "x" + altoPantalla);
-  
-        
+        int altoPantalla = Screen.height;        
     }
 
     // Update is called once per frame
